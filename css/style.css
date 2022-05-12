@@ -90,3 +90,8 @@ button{
 #share{
     color: rgb(3, 186, 24);
 }
+/* tasti hover*/
+
+button:hover{
+    color: blue;
+}
