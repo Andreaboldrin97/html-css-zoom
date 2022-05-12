@@ -42,6 +42,7 @@ button{
 /*main*/
 .section-user{
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 .user{
     position: relative;
@@ -75,5 +76,17 @@ button{
     border: none;
     background-color: grey;
     color: white;
-
+}
+.apps i{
+    font-size: 3vh;
+    margin-bottom: 5px;
+}
+.nav-app{
+    margin: 10px 5px;
+}
+.nav-app i{
+    font-size: 10px;
+}
+#share{
+    color: rgb(3, 186, 24);
 }
