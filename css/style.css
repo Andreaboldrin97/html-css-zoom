@@ -23,6 +23,10 @@ button{
     cursor: pointer;
 }
 /*header*/
+header{
+    height: 30px;
+    margin-bottom: 15px;
+}
 .functions{
     justify-content: flex-end;
     position: fixed;
@@ -41,8 +45,8 @@ button{
 }
 /*main*/
 .section-user{
-    margin-top: 70px;
-    margin-bottom: 70px;
+    height: 100vh;
+    overflow: auto;
 }
 .user{
     position: relative;
@@ -56,6 +60,9 @@ button{
     background-color: rgb(156, 156, 156,0.5);
 }
 /*footer*/
+footer{
+    height: 70px ;
+}
 .keyboard{
     justify-content:space-between;
     position: fixed;
