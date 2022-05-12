@@ -12,13 +12,23 @@ body{
     justify-content: space-between;
 }
 .container{
-    width: 100vw;
+    width: 90vw;
+    margin: 0 auto;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;   
+}
+button{
+    cursor: pointer;
 }
 /*header*/
 .functions{
     justify-content: flex-end;
     position: fixed;
     top: 0;
+    width: 100%;
+    z-index: 1;
 }
 .functions button{
     padding: 5px;
@@ -29,13 +39,35 @@ body{
     background-color: grey;
     color: white;
 }
+/*main*/
+.section-user{
+    margin-top: 70px;
+}
+.user{
+    position: relative;
+    margin: 0 3px 15px;
+}
+.banner{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    font-size: 3vh;
+    background-color: rgb(156, 156, 156,0.5);
+}
 /*footer*/
-
+.keyboard{
+    justify-content:space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(57, 55, 55);
+}
 .apps
 {
     margin: 10px;
     font-size: 2vh;
     text-align: center;
+    cursor: pointer;
 }
 .apps button{
     padding: 15px;
